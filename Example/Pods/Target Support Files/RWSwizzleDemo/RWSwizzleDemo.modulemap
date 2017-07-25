@@ -1,0 +1,6 @@
+framework module RWSwizzleDemo {
+  umbrella header "RWSwizzleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

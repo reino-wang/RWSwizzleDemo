@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - RWSwizzleDemo (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - RWSwizzleDemo (from `../`)
+
+EXTERNAL SOURCES:
+  RWSwizzleDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  RWSwizzleDemo: d1b474d6475dc2eac2f88a4939dfd9fb4c59bbb3
+
+PODFILE CHECKSUM: 469c79ffd146dd03a6e8c370ad73a7cebeb49cba
+
+COCOAPODS: 1.2.1

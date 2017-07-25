@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RWSwizzleDemo_Example' do
+  pod 'RWSwizzleDemo', :path => '../'
+
+  target 'RWSwizzleDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end

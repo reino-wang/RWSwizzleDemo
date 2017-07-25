@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #名称
   s.name             = 'RWSwizzleDemo'
 #版本号
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
 #简介
   s.summary          = 'ios swizzle demo'
 
